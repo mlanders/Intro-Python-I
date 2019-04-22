@@ -5,6 +5,5 @@
 
 print(2**65536)
 
-
-# node
+# Node
 # Math.pow(2,65536)
