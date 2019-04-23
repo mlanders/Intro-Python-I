@@ -86,8 +86,8 @@ The suggested order for going through each of the directories is:
 - [x] `tuples` -- Immutable lists typically for heterogenous data
 - [x] `slices` -- Accessing parts of lists
 - [x] `comprehensions` -- List comprehensions
-- [] `dictionaries` -- Dictionaries
-- [] `functions` -- Functions
+- [x] `dictionaries` -- Dictionaries
+- [x] `functions` -- Functions
 - [] `args` -- Arguments and Keyword Arguments
 - [] `scopes` -- Global, Local, and Non-Local scope
 - [] `file_io` -- Read and write from files
