@@ -19,11 +19,13 @@ print(x)
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
 x.remove(8)
+# del x[4]
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
 x.insert(5, 99)
+# x.insert(-1,99)
 print(x)
 
 # Print the length of list x
@@ -34,4 +36,6 @@ print(len(x))
 # YOUR CODE HERE
 
 for y in x:
-    print(y*2)
+    print(y*1000)
+
+print([n*1000 for n in x])
