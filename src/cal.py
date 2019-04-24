@@ -55,8 +55,6 @@ def cal(year, month):
         year = int(year)
         if month < 1 or month > 12:
             print("please enter a valid month")
-        elif year > today.year:
-            print("Invalid year")
         else:
             print(c.formatmonth(year, month))
 
